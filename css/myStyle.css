@@ -1,0 +1,91 @@
+body {
+    background-image: url("../img/tile.jpg");
+    font-family: 'Allerta Stencil';
+    font-size: 18px;
+    line-height: 32px;
+}
+
+header {
+    padding-top: 15px;
+}
+
+#myform {
+    background-image: url("../img/formbg.jpg");
+    height: 300px;
+    padding-left: 80px;
+    margin: 0 auto;
+    max-width: 450px;
+}
+
+textarea {
+    padding-top: 15px;
+    background: transparent;
+    border: transparent;
+    resize: none;
+    outline: none;
+}
+
+input {
+
+    background: transparent;
+    border: transparent;
+    resize: none;
+    outline: none;
+}
+
+section {
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.notes {
+    background: url("../img/notebg.png");
+    background-size: 200px 250px;
+    background-repeat: no-repeat;
+    height: 250px;
+    padding-top: 25px;
+    transition: all 0.5s linear;
+    display: block;
+    margin: 0 1%;
+    width: 180px;
+    opacity: 0;
+}
+
+.shown {
+    transition: all 0.5s linear;
+    opacity: 1;
+}
+
+.noteText {
+    word-wrap: break-word;
+    overflow-y: auto;
+    height: 160px;
+    max-height: 180px;
+    width: 140px;
+}
+
+.glyphicon {
+    transition: opacity 0.5s linear;
+    opacity: 0;
+    position: absolute;
+    top: 25px;
+    right: 8px;
+    color: #fff;
+    background-color: black;
+}
+
+.notes:hover .glyphicon {
+    transition: opacity 0.5s linear;
+    opacity: 1;
+}
+
+#submit {
+    color: #fff;
+    background-color: black;
+    margin-left: 11px;
+}
+
+#date {
+    margin-left: 11px;
+    margin-top: 1px;
+}
